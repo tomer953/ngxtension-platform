@@ -28,31 +28,19 @@ export default defineConfig({
 				{
 					label: 'Utilities',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'assertInjector', link: '/utilities/assert-injector' },
-						{
-							label: 'createInjectionToken',
-							link: '/utilities/create-injection-token',
-						},
-						{
-							label: 'computedFrom',
-							link: '/utilities/computed-from',
-						},
-						{
-							label: 'injectDestroy',
-							link: '/utilities/inject-destroy',
-						},
-						{
-							label: 'connect',
-							link: '/utilities/connect',
-						},
-						{ label: 'repeat', link: '/utilities/repeat' },
-						{ label: 'resize', link: '/utilities/resize' },
+						// Each item here is one entry in the navigation menu. sorted alphabetically
+						{ label: 'assertInjector', link: '/utilities/assert-injector' },						
+						{ label: 'call apply Pipes', link: '/utilities/call-apply' },						
+						{ label: 'computedFrom', link: '/utilities/computed-from' },
+						{ label: 'connect', link: '/utilities/connect' },
 						{ label: 'createEffect', link: '/utilities/create-effect' },
+						{ label: 'createInjectionToken', link: '/utilities/create-injection-token' },
 						{ label: 'ifValidator', link: '/utilities/if-validator' },
-						{ label: 'call apply Pipes', link: '/utilities/call-apply' },
+						{ label: 'injectDestroy', link: '/utilities/inject-destroy' },
 						{ label: 'navigationEnd', link: '/utilities/navigation-end' },
-					],
+						{ label: 'repeat', link: '/utilities/repeat' },
+						{ label: 'resize', link: '/utilities/resize' }
+          ],
 				},
 			],
 		}),
